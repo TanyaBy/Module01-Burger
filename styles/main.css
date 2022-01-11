@@ -9,7 +9,6 @@ body {
 }
 header{
     border-bottom: 1px solid #DEDEDE;
-
 }
 .header{
     font-family: 'Open Sans', sans-serif;
@@ -18,6 +17,12 @@ header{
     justify-content: space-between;
     padding-top: 26px;
     padding-bottom: 25px;
+}
+.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 68.5%;
 }
 .header-logo{
     display: block;
@@ -147,7 +152,7 @@ header{
 }
 .banner-title{
     font-size: 60px;
-    font-weight: 900px;
+    font-weight: 900;
     color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 12px;
@@ -176,12 +181,18 @@ header{
 }
 .banner-link{
    font-size: 14px;
-   padding: 20px 27px;
+   font-weight: 700;
+   padding: 18px 25px;
    text-transform: uppercase;
    text-decoration: none;
    color: #1E2F40;
    background-color: #FBB731;
    border-radius: 5px;
+   border: 1px solid #FBB731;
+}
+.banner-link:hover{
+    background-color: transparent;
+    color: #FBB731;
 }
 .menu-header{
     display: flex;
@@ -248,7 +259,7 @@ header{
 .menu-grid-btn{
     background-color: #FBB731;
     border-radius: 5px;
-    padding: 11px 34px;
+    padding: 9px 32px;
     border: none;
     display: flex;
     align-items: center;
@@ -256,6 +267,11 @@ header{
     margin: 0 auto;
     gap: 9px;
     cursor: pointer;
+    border: 1px solid #FBB731;
+}
+.menu-grid-btn:hover{
+    background-color: transparent;
+    color: #FBB731;
 }
 .menu-grid-icon{
     background-image: url(../images/cart-menu.svg);
@@ -293,7 +309,7 @@ header{
     margin-bottom: 19px;
     margin-top: 0;
 }
-.footer-item li{
+.footer-list li{
     margin-bottom: 9px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -301,7 +317,7 @@ header{
     font-weight: 700;
     line-height: 24px;
 }
-.footer-item a{
+.footer-list a{
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
@@ -312,14 +328,16 @@ header{
     font-weight: 400;
     margin-bottom: 2px;
 }
-.footer-tel ul{
-    font-size: 20px;
-    font-weight: 900;
-    color: #FBB731;
+.footer-list-tel{
     margin-top: 0;
 }
-.footer-tel li{
+.footer-list-tel li{
     margin-bottom: 12px;
+}
+.footer-list-tel a{
+    font-size: 20px;
+    font-weight: 900;
+    color: #FBB731;  
 }
 .footer-list{
     padding-left: 0;
