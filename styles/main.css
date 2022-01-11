@@ -259,7 +259,7 @@ header{
 .menu-grid-btn{
     background-color: #FBB731;
     border-radius: 5px;
-    padding: 9px 32px;
+    padding: 11px 35px;
     border: none;
     display: flex;
     align-items: center;
@@ -267,11 +267,9 @@ header{
     margin: 0 auto;
     gap: 9px;
     cursor: pointer;
-    border: 1px solid #FBB731;
 }
 .menu-grid-btn:hover{
-    background-color: transparent;
-    color: #FBB731;
+    background-color: #F37335;
 }
 .menu-grid-icon{
     background-image: url(../images/cart-menu.svg);
@@ -322,6 +320,9 @@ header{
     text-decoration: none;
     font-weight: 400;
 }
+.footer-list a:hover{
+    color: #FBB731;
+}
 .footer-item span{
     color: #DEDEDE;
     display: block;
@@ -338,6 +339,9 @@ header{
     font-size: 20px;
     font-weight: 900;
     color: #FBB731;  
+}
+.footer-list-tel a:hover{
+    color: #DEDEDE;
 }
 .footer-list{
     padding-left: 0;
