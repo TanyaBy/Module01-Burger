@@ -1,1 +1,4 @@
-# Module01-Burger
+# Burgers - тренировочный сайт от учебного проекта Annblok.ru
+
+*[Макет сайта Figma](https://www.figma.com/file/vcjwapDaZnUrF95yykrlpu/Burgers-Menu?node-id=0%3A1)
+*[Демо сайта](https://tanyaby.github.io/Burger/)
